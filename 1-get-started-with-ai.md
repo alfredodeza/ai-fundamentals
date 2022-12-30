@@ -1,6 +1,6 @@
 # Get Started with AI
 
-LP: https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/
+[Learning Path](https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=academic-0000-alfredodeza)
 
 ## Get Started with AI on Azure
 
