@@ -195,3 +195,36 @@ AUC definition: Is the Area Under the Curve. For a ROC plot, the highes the area
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-clustering-model-azure-machine-learning-designer/?WT.mc_id=academic-0000-alfredodeza)
 
+
+### Clustering ML scenarios
+
+Definition: Groups similar items into clusters based on their features.
+
+Type of ML: Unsupervised
+
+Examples:
+
+- Grouping of wines given their flavor characteristics
+- Grouping of dishes given their ingredients and preparation type
+
+
+### Training and Steps for clustering
+
+1. Prepare data: Cleaning, pre-processing
+1. Train model: Data split in training and validation sets. Training happens with the training dataset. Validation is for testing performance
+1. Evaluate: Check predictions against known labels
+1. Deploy: Get the model into a server for real-time (live) inference pipeline
+
+
+| Step | Dataset |
+| - | - |
+| Type of task (K-means clustering)| |
+| Train clustering Model | Split data with training dataset |
+| Assign data to clusters | Split data with validation dataset |
+
+### Evaluate performance
+
+- Average Distance to Other Center: Average of each point to centroids in all other clusters
+- Average Distance to Cluster Center: Average from centroid of the cluster
+- Number of Points: Total number of points in the cluster
+- Maximal Distance to Cluster Center: Maximum distances between each point and the centroid of that point
