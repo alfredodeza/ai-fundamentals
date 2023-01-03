@@ -76,6 +76,76 @@ Use Azure Container Instance (ACI) or Azure Kubernetes Service (AKS) cluster. AK
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-regression-model-azure-machine-learning-designer/?WT.mc_id=academic-0000-alfredodeza)
 
+### Regression ML scenarios
+
+Definition: Predicts a numeric result or outcome from variables (a.k.a features). E.g. A PC with N GB of RAM and X type of CPU processor can get a price prediction.
+
+Type of ML: Supervised
+
+Training involves both the features and the known values for the label
+
+Examples:
+
+- Predict home prices from house features
+- Crop yield in farms from weather and soil quality
+- Ad click-through from data from past campaigns
+
+### Azure ML Designer
+
+Definiton: A visual UI with drag-and-drop elements to perform common ML actions like train, test, and deploy ML models.
+
+ML Designer projects are known as pipelines
+
+### Azure ML Pipelines
+
+Definition: Steps to organize, manage, and reuse complex workflows across projects and users. It starts with the dataset. Results are stored in  your workspace.
+
+### Azure ML Pipeline component
+
+Definition: A single step in an ML pipeline, like a programming function (building bloc)
+
+### Azure ML Datasets
+
+Definition: Register data assets in Azure from local files, datastores, web files, or Open Datasets.
+
+### Azure ML Jobs
+
+Definition: A task for a compute target with tracking for runs and workflows. All runs are recorded and can be viewed in the UI.
+
+### Steps for regression
+
+1. Prepare data: Cleaning, pre-processing
+1. Train model: Data split in training and validation sets. Training happens with the training dataset. Validation is for testing performance
+1. Evaluate: Check predictions against known labels
+1. Deploy: Get the model into a server for real-time (live) inference pipeline
+
+### Model Training with Azure ML Designer
+
+| Step | Dataset |
+| - | - |
+| Type of task (Linear Regression)| |
+| Train Model | Split data with training dataset |
+| Score Model | Split data with validation dataset |
+
+### Performance Evaluation
+
+- Mean Absolute Error (MAE): Average of predicted and true values
+- Root Mean Squared Error (RMSE): Square root of the difference of predicted and true values
+- Relative Squared Error (RSE): A value between 0 and 1 from the square of the difference between predicted and true values
+- Relative Absolute Error (RAE): A value between 0 and 1 from the absolute differences between predicted and true values
+- Coefficient of Determination (R2): Variance predicted between predicted and true values. Closer to 1 means better model performance
+
+
+### Deploy a prediction service
+
+You must convert your training pipeline into a real-time inference pipeline. The process removes training components and adds a web service to handle requests.
+
+After pipeline creation:
+
+- Deploy it as an endpoint, wait for it to get in a healthy state
+- Test it after deployment with sample data in JSON format
+- Use credentials to consume the endpoint using authentication
+
 ## Create a classification model with Azure ML Designer
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-classification-model-azure-machine-learning-designer/?WT.mc_id=academic-0000-alfredodeza)
