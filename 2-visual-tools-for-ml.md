@@ -150,6 +150,47 @@ After pipeline creation:
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-classification-model-azure-machine-learning-designer/?WT.mc_id=academic-0000-alfredodeza)
 
+### Classification ML scenarios
+
+Definition: Classification can predict a category (or class) for an item. Applies to binary and multi-class scenarios.
+
+Type of ML: Supervised
+
+Training also involves features and known values for the label.
+
+Examples:
+
+- Predict if a patient will become sick given clinical data
+- Predict text sentiment (positive, neutral, negative)
+
+### Steps for classification
+
+1. Prepare data: Cleaning, pre-processing
+1. Train model: Data split in training and validation sets. Training happens with the training dataset. Validation is for testing performance
+1. Evaluate: Check predictions against known labels
+1. Deploy: Get the model into a server for real-time (live) inference pipeline
+
+### Confusion Matrix
+
+Helps visualize true positives (both 1's) true negatives (both 0's) and false positives and negatives. Binary classification predicts one of two values.
+
+| 	     | Actual 1 | Actual 0 |
+|Predicted 1 | 869 | 377 |
+|Predicted 0 | 400 | 2377 |
+
+Metrics:
+
+- **Accuracy**: Ratio of correct predictions (true positives + true negatives)
+- **Precision**: Fraction of cases that are true positives
+- **Recall**: True positives divided by the number of true positives plus flase negatives
+- **F1 Score**: Overall metric from combining precision and recall
+
+### ROC curve and AUC Metric
+
+ROC definition: Plotting the True Positive Rate against the False Positive Rate for every threshold value between 0 and 1.
+
+AUC definition: Is the Area Under the Curve. For a ROC plot, the highes the area the better the model.
+
 ## Create a clustering model with Azure ML Designer
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-clustering-model-azure-machine-learning-designer/?WT.mc_id=academic-0000-alfredodeza)
