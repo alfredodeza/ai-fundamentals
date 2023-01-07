@@ -238,9 +238,45 @@ Both resources alwyas provide a key and an endpoint.
 
 Computer Vision provides a single API to read text in images: the **Read** API
 
-
-
-
 ## Analyze receipts with the Form Recognizer Service
 
 [Learning Module](https://learn.microsoft.com/training/modules/analyze-receipts-form-recognizer/?WT.mc_id=academic-0000-alfredodeza)
+
+Definition: Provides text from digitized documents using OCR (Optical Character Recognition) as well as structured data from forms including receipts.
+
+Examples:
+
+- Retrieve address and phone number for a merchant from a receipt
+- Create structured data that can tell you quantity and price for each item in a receipt
+
+Two types of automated processing:
+
+- **Pre-built receipt model**: Ready-to-use model for parsing data from receipts
+- **Custom models**: Extracts key/value pairs from forms by training models using _your own data_
+
+Two resources to use the Form Recognizer service:
+
+- **Form Recognizer**: Only has access to the Form Recognizer Service
+- **Cognitive Services**: Includes the Form Recognizer Service
+
+Both resources alwyas provide a key and an endpoint.
+
+Pre-built model works for English receipts with data common to the US. Can extract information like:
+
+- Taxes
+- Items with prices and count
+- Merchant information
+- Dates and times
+- All other extra data
+
+
+## Vision Services chart
+
+**Cognitive Services** is the parent service for all Vision and Text related services which provides a single interface (API)
+
+| Service Name | Part of other Service | Endpoints generated |
+| - | - | - |
+| Computer Vision | Cognitive Services | 1 |
+| Custom Vision | Cognitive Services | 1 of training, prediction, or both  |
+| Azure Face  | Cognitive Services  | 1  |
+| Cognitive Services | | 1 for all other included services |
