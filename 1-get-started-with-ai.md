@@ -25,10 +25,10 @@ How does it work:
 
 ### Machine Learning on Azure
 
-**Automated ML (AutoML)**: Create effective ML models with no expertise needed
-**Azure ML Designer**: A GUI for no-code development of ML models
-**Data and Compute**: Cloud-based resources for data scientists tu run experiments
-**Pipelines**: A way to orchestrate tasks like training, validation, and deployment
+- **Automated ML (AutoML)**: Create effective ML models with no expertise needed
+- **Azure ML Designer**: A GUI for no-code development of ML models
+- **Data and Compute**: Cloud-based resources for data scientists tu run experiments
+- **Pipelines**: A way to orchestrate tasks like training, validation, and deployment
 
 ### Anomaly Detection
 
