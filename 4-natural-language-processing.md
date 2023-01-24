@@ -102,6 +102,38 @@ Resources possible:
 
 [Learning Module](https://learn.microsoft.com/training/modules/translate-text-with-translation-service/?WT.mc_id=academic-0000-alfredodeza)
 
+
+Definition: Speech translation translates languages either directly (speech-to-speech) or using text as an intermediate step.
+
+Literal and semantic translation: AI systems should take into account the context for proper tanslations, not only literal because it might provide insufficient or incorrect meaning.
+
+Text translation is used for documents like emails, PDFs, and websites.
+
+Speech translattion is used for spoken languages, either directly (speech-to-speech) or indirectly with speech-to-text.
+
+### Translator Service
+
+Definition: Analyzes _semantic_ context of text for text-to-text translations. 60 languages supported.
+
+Requires specifying the source language to one or more destination languages for translations (one-to-many). It is possible to use cultural variants like Spanish from Spain or from Mexico.
+
+Additional configurations:
+
+- Profanity filtering
+- Selective translation: Useful when trying to avoid a literal translation of something that doesn't make sense to translate like a name, or brand.
+
+### Speech Service
+
+Definition: Analyzes speech or spoken audio to text, and can create spoken audio from text. Both can also get translated.
+
+Provides the following services via APIs:
+
+- **Speech-to-text**
+- **Text-to-speech**
+- **Speech-translation**
+
+Example usage: real-time closed-captioning of spoken audio (e.g. via video)
+
 ## Create a language model with Conversational Language Understanding
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-language-model-with-language-understanding/?WT.mc_id=academic-0000-alfredodeza)
