@@ -138,7 +138,60 @@ Example usage: real-time closed-captioning of spoken audio (e.g. via video)
 
 [Learning Module](https://learn.microsoft.com/training/modules/create-language-model-with-language-understanding/?WT.mc_id=academic-0000-alfredodeza)
 
-## Build a bot with the Language Sercie and Azure Bot Service
+The main service in Azure is the **Language Service**
+
+Three main concepts:
+
+- **Utterance**: A sentence or phrase a user might say for a system to react, like "turn the lights on"
+- **Entity**: A specific item within an utterance. For example in "what is the weather today?", the "weather" is the entity. Sometimes there is no entity.
+- **Intent**: The goal or objective in an utterance. "WeatherStatus" might be the intent for many different utterances
+
+Note: There is a `None` intent is a _fallback_ when no other intents are matched, and is helpful to handle utterances that don't map anything else. It is always created in Conversational Language Understanding app, but left empty. It can't be deleted.
+
+### Conversational Language Understanding
+
+Definition: A service to help build application without having much ML experience or knowledge.
+
+Service requires two main tasks:
+
+1. Definte entities, intents, and utterances for training the model (a.k.a. authoring a model)
+1. Publish the model so that client applications can use it for intent and entity prediction based on input
+
+Resources possible:
+
+- **Language Service**: A resource to build apps, use it if only requiring this service exclusively.
+- **Cognitive Services**: Includes the Conversational Language Understanding service along with other cognitive services
+
+### Authoring
+
+Use pre-built _domains_ that includes pre-defined intents and entities for common uses that you can build on.
+
+Note: order of entities/intents do not matter
+
+Add the intents with the Portal (although you can write code for it). Use the portal for authoring, but SDK for predictions
+
+
+### Intents
+
+There are 4 types:
+
+1. **Machine Learned**: Model learns from sample utterances you provide
+1. **List**: Allows a hierarchy of lists/sublists. Like _device_ might be a light -> lamp -> night stand
+1. **RegEx**: Entities as a regular expression that describes a pattern
+1. **Pattern.any**: Entities with patterns to solve complex scenarios that are hard to extract from utterances
+
+
+### Training
+
+After entities and utterances are defined, use the service to train and test the model. Use sample utterances to see if intents and entities are recognized correctly.
+
+## Predicting
+
+After verification of training predictions you publish the application to a _preduction resource for consumption_
+
+Clients can use the prediction to take actions based on predicted intent.
+
+## Build a bot with the Language Service and Azure Bot Service
 
 [Learning Module](https://learn.microsoft.com/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/?WT.mc_id=academic-0000-alfredodeza)
 
