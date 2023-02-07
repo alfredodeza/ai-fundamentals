@@ -195,4 +195,35 @@ Clients can use the prediction to take actions based on predicted intent.
 
 [Learning Module](https://learn.microsoft.com/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/?WT.mc_id=academic-0000-alfredodeza)
 
+Conversations can happen in different channels including email and text messages. It requires a **knowledge base** and a a **bot service** to provide an interface.
 
+In Azure it requires two core services:
+
+1. **Language Service**: Includes question answering to create a knowledge base for querying later
+1. **Azure Bot Service**: The framework for creating, publishing, and managing bots on Azure
+
+### Custom Knowledge base
+
+Must create a **Language Service** resource.
+
+Define Q&A. Use the _Language Studio_ custom Q&A to create a knowledge base. Enter them manually or with an existing FAQ document or website (or a combination of both).
+
+**Test** the knowledge base using the Language Studio and reviewing the answers after the model has been processed.
+
+**Use the knowledge base**: Over an API (REST interface) that requires an ID, the endpoint, and the Authorization key
+
+### Azure Bot Service
+
+Build it using the Bot Framework SDK to write code for conversation flow control.
+
+Easier with the _automatic bot creation_ functionality using the knowledge base automatically.
+
+**Extend and configure**
+
+* Extend by adding custom code
+* Test the bot in an interactive test
+* Configure logging and analytics
+
+**Connect channels**
+
+Bots can use more than one channel. Including Microsoft Teams, web chat, and email.
