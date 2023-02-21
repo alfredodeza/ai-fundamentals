@@ -58,3 +58,8 @@ Find key differences for similar services. For example, IoT Hub vs. IoT Central:
 
 **IoT Central:** Less control, more managed (dashboard included). Telemetry analysis.
 
+## 📚 Resources
+If you are looking for more resources, here are some that I found helpful:
+
+* [Azure AI Fundamentals Certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)
+* [Azure AI Fundamentals Certification Study Guide](https://docs.microsoft.com/en-us/learn/certifications/exams/ai-900?WT.mc_id=academic-0000-alfredodeza)
