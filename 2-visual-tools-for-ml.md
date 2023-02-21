@@ -175,6 +175,7 @@ Examples:
 Helps visualize true positives (both 1's) true negatives (both 0's) and false positives and negatives. Binary classification predicts one of two values.
 
 | 	     | Actual 1 | Actual 0 |
+| - | - | - |
 |Predicted 1 | 869 | 377 |
 |Predicted 0 | 400 | 2377 |
 
