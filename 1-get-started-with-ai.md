@@ -27,7 +27,7 @@ How does it work:
 
 - **Automated ML (AutoML)**: Create effective ML models with no expertise needed
 - **Azure ML Designer**: A GUI for no-code development of ML models
-- **Data and Compute**: Cloud-based resources for data scientists tu run experiments
+- **Data and Compute**: Cloud-based resources for data scientists to run experiments
 - **Pipelines**: A way to orchestrate tasks like training, validation, and deployment
 
 ### Anomaly Detection
