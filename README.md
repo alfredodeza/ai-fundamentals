@@ -1,6 +1,10 @@
-# Azure AI Fundamentals (AI-900) ai-fundamentals
+# Microsoft Azure AI Fundamentals (AI-900) Certification Study Notes
 
 Study notes for the [Azure AI Fundamentals Certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)
+
+## 🚀 Watch the Video course
+
+[![O'Reilly](https://learning.oreilly.com/covers/urn:orm:video:27883591VIDEOPAIML/400w/)](https://learning.oreilly.com/videos/microsoft-azure-ai/27883591VIDEOPAIML/ "Azure Fundamentals Certification")
 
 ## 💡 Create a study strategy
 This repository has _my own notes_ but you should create yours as part of studying for the course. I show you how I did it below 👇
