@@ -1,5 +1,12 @@
 # Microsoft Azure AI Fundamentals (AI-900) Certification Study Notes
 
+_Pass the AI Fundamentals certification_
+
+This repository is part of a course will give you everything you need to pass the Azure AI Fundamentals (AI-900) certification. This is the foundational certification for doing Machine Learning and Data Science using Azure and its specialized services. The course will go into every content that is relevant to pass the certification including how to create a study guide and strategy to pass the exam.
+
+This course includes and covers all of my study notes so that you can use them in addition to your own notes.
+
+This course contains a complete walkthrough over all of the content relevant for the AI-900 certification with a summary and specialized notes after each sections, following the same content that is available as Learning Paths. Aside from the video content, create your own study notes and strategy using the
 Study notes for the [Azure AI Fundamentals Certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)
 
 ## 🚀 Watch the Video course
