@@ -6,6 +6,12 @@ This repository is part of a course will give you everything you need to pass th
 
 This course includes and covers all of my study notes so that you can use them in addition to your own notes.
 
+- [Get Started with AI](./1-get-started-with-ai.md)
+─ [Visual Tools for ML](./2-visual-tools-for-ml.md)
+─ [Computer Vision](./3-computer-vision.md)
+─ [Natural Language Processing](4-natural-language-processing.md)
+─ [Decision Support](5-decision-support.md)
+
 This course contains a complete walkthrough over all of the content relevant for the AI-900 certification with a summary and specialized notes after each sections, following the same content that is available as Learning Paths. Aside from the video content, create your own study notes and strategy using the
 Study notes for the [Azure AI Fundamentals Certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)
 
@@ -13,8 +19,9 @@ Study notes for the [Azure AI Fundamentals Certification](https://learn.microsof
 
 [![O'Reilly](https://learning.oreilly.com/covers/urn:orm:video:27883591VIDEOPAIML/400w/)](https://learning.oreilly.com/videos/microsoft-azure-ai/27883591VIDEOPAIML/ "Azure Fundamentals Certification")
 
-## 💡 Create a study strategy
-This repository has _my own notes_ but you should create yours as part of studying for the course. I show you how I did it below 👇
+## 💡 How can I pass the AI 900 Certification?
+
+Start by creating your own study strategy. This repository has _my own notes_ but you should create yours as part of studying for the course. I show you how I did it below 👇
 
 **[Centralized details](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)**
 
