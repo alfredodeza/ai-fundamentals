@@ -10,7 +10,7 @@ This course includes and covers all of my study notes so that you can use them i
 1. [Visual Tools for ML](./2-visual-tools-for-ml.md)
 1. [Computer Vision](./3-computer-vision.md)
 1. [Natural Language Processing](4-natural-language-processing.md)
-1. [Decision Support](5-decision-support.md)
+1. [Decision Support](5-decission-support.md)
 
 This course contains a complete walkthrough over all of the content relevant for the AI-900 certification with a summary and specialized notes after each sections, following the same content that is available as Learning Paths. Aside from the video content, create your own study notes and strategy using the
 Study notes for the [Azure AI Fundamentals Certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/?WT.mc_id=academic-0000-alfredodeza)
@@ -47,7 +47,7 @@ Sample repo structure:
 ├── 2-visual-tools-for-ml.md
 ├── 3-computer-vision.md
 ├── 4-natural-language-processing.md
-├── 5-decision-support.md
+├── 5-decission-support.md
 └── README.md
 ```
 
